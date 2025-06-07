@@ -11,7 +11,7 @@ files = os.listdir(path)
 for file in files:
     # 3a. Split “name” and “.extension”
     filename, extension = os.path.splitext(file)
-    # 3b. Remove the leading dot (so “.pdf” → “pdf”)
+    # 3b. Remove the leading dot (so “.pdf” -> “pdf”)
     extension = extension[1:]
     
     # 4. Build the full paths we’ll need
